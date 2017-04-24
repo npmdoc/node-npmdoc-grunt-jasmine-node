@@ -1,4 +1,7 @@
-# api documentation for  [grunt-jasmine-node (v0.3.1)](https://github.com/jasmine-contrib/grunt-jasmine-node)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-jasmine-node.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-jasmine-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-jasmine-node.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-jasmine-node)
+# npmdoc-grunt-jasmine-node
+
+#### api documentation for  [grunt-jasmine-node (v0.3.1)](https://github.com/jasmine-contrib/grunt-jasmine-node)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-jasmine-node.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-jasmine-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-jasmine-node.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-jasmine-node)
+
 #### Grunt task for running jasmine-node
 
 [![NPM](https://nodei.co/npm/grunt-jasmine-node.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-jasmine-node)
@@ -18,35 +21,41 @@
 ```json
 
 {
+    "name": "grunt-jasmine-node",
+    "description": "Grunt task for running jasmine-node",
+    "version": "0.3.1",
+    "homepage": "https://github.com/jasmine-contrib/grunt-jasmine-node",
     "author": {
         "name": "Omar Gonzalez",
         "url": "http://s9tpepper.com"
     },
-    "bin": {
-        "grunt-jasmine-node": "bin/grunt-jasmine-node"
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jasmine-contrib/grunt-jasmine-node.git"
     },
     "bugs": {
         "url": "https://github.com/jasmine-contrib/grunt-jasmine-node/issues"
     },
-    "dependencies": {
-        "coffee-script": "~1.6.2",
-        "jasmine-node": "^1.14.5"
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jasmine-contrib/grunt-jasmine-node/blob/master/LICENSE-MIT"
+        }
+    ],
+    "main": "grunt.js",
+    "bin": "bin/grunt-jasmine-node",
+    "engines": {
+        "node": ">=0.8.0"
     },
-    "description": "Grunt task for running jasmine-node",
+    "scripts": {},
+    "dependencies": {
+        "jasmine-node": "^1.14.5",
+        "coffee-script": "~1.6.2"
+    },
     "devDependencies": {
         "grunt": "~0.4.1",
         "grunt-contrib-jshint": "~0.1.1"
     },
-    "directories": {},
-    "dist": {
-        "shasum": "ca9b8e5f584a47d701126e080649c9546b1134e0",
-        "tarball": "https://registry.npmjs.org/grunt-jasmine-node/-/grunt-jasmine-node-0.3.1.tgz"
-    },
-    "engines": {
-        "node": ">=0.8.0"
-    },
-    "gitHead": "a4ec2e870f7c4c53843d31f1e32d624600f10ef4",
-    "homepage": "https://github.com/jasmine-contrib/grunt-jasmine-node",
     "keywords": [
         "gruntplugin",
         "grunt",
@@ -55,27 +64,7 @@
         "ci",
         "jasmine",
         "jasmine-node"
-    ],
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/jasmine-contrib/grunt-jasmine-node/blob/master/LICENSE-MIT"
-        }
-    ],
-    "main": "grunt.js",
-    "maintainers": [
-        {
-            "name": "s9tpepper"
-        }
-    ],
-    "name": "grunt-jasmine-node",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/jasmine-contrib/grunt-jasmine-node.git"
-    },
-    "scripts": {},
-    "version": "0.3.1"
+    ]
 }
 ```
 
